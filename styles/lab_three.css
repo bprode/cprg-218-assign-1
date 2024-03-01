@@ -1,0 +1,20 @@
+/* Cat container that holds the secret to understanding cats */
+.cat-container{
+    margin-top: 1rem;
+}
+
+/* Cat Iframe to respect the video ration */
+.cat-iframe{
+    position: relative;
+    padding-bottom: 56.25%;
+    border-bottom: 0.25rem solid #fc0;
+    border-radius: 0.25rem 0.25rem 0 0;
+}
+
+iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
